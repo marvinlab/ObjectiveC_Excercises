@@ -8,13 +8,20 @@
 
 #include <stdio.h>
 
+void congratulateStudent(char *student, char *course, int numDays)
+{
+    printf("%s has done as much %s Programming as I could fit into %d days. \n", student, course, numDays);
+    
+}
+
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    congratulateStudent("Marvs", "Objective-C", 10);
+    congratulateStudent("Josh", "PHP", 10);
+    congratulateStudent("Russel", "Java", 10);
     
+    
+    return 0;
     
 }
 
