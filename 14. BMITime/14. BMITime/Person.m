@@ -15,9 +15,19 @@
     heightInMeters = h;
 }
 
+-(float)heightInMeters
+{
+    return heightInMeters;
+}
+
 -(void)setWeightInKilos:(int)w
 {
     weightInKilos = w;
+}
+
+-(int)weightInKilos
+{
+    return weightInKilos;
 }
 
 -(float)bodyMassIndex
