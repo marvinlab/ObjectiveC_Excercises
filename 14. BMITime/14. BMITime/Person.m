@@ -10,7 +10,7 @@
 
 @implementation Person
 
-@synthesize heightInMeters, weightInKilos;
+@synthesize heightInMeters, weightInKilos; //used sythesize
 
 -(float)bodyMassIndex
 {
