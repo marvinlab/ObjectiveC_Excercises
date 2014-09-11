@@ -16,8 +16,11 @@ int main(int argc, const char * argv[])
         
         Person *Marvs = [[Person alloc]init];
         
-        [Marvs setWeightInKilos:90];
-        [Marvs setHeightInMeters:1.8];
+        //[Marvs setWeightInKilos:90];
+        //[Marvs setHeightInMeters:1.8];
+        
+        Marvs.weightInKilos = 90;
+        Marvs.heightInMeters = 1.8;
     
         float bmi = [Marvs bodyMassIndex];
         NSLog(@"This person with a height of %.1f Meters and a weight of %d Kilos has a BMI of %.2f",
