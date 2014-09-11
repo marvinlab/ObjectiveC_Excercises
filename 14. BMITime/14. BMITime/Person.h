@@ -15,10 +15,14 @@
 }
 
 -(void)setHeightInMeters:(float)h;
--(float)heightInMeters;
--(void)setWeightInKilos:(int)w;
--(int)weightInKilos;
 
+//-(float)heightInMeters;
+@property float heightInMeters;
+
+-(void)setWeightInKilos:(int)w;
+//-(int)weightInKilos;
+
+@property int weightInKilos;
 -(float)bodyMassIndex;
 
 @end
