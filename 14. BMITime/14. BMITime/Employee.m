@@ -15,7 +15,10 @@
 
 -(float)bodyMassIndex
 {
-    return 19.0;
+    float normalBodyMassIndex = [super bodyMassIndex];
+    
+    return normalBodyMassIndex *.90;
+    
 }
 
 @end
