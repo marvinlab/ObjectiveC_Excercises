@@ -15,18 +15,6 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-//        Person *Marvs = [[Person alloc]init];
-        
-//        [Marvs setWeightInKilos:90];
-//        [Marvs setHeightInMeters:1.8];
-        
-//        Marvs.weightInKilos = 90;
-//        Marvs.heightInMeters = 1.8;
-//    
-//        float bmi = [Marvs bodyMassIndex];
-//        NSLog(@"This person with a height of %.1f Meters and a weight of %d Kilos has a BMI of %.2f",
-//              [Marvs heightInMeters],[Marvs weightInKilos],bmi);
-        
         
         Employee *person = [[Employee alloc]init];
         Person *tao = [[Person alloc] init];
@@ -46,7 +34,6 @@ int main(int argc, const char * argv[])
         NSLog(@"This employee(id:) with a height of %.1f Meters and a weight of %d Kilos has a BMI of %.2f",
               [tao heightInMeters],[tao weightInKilos],bmi2);
      
-//        [person count];
         
     }
     return 0;
