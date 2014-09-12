@@ -11,6 +11,7 @@
 		FA36B5F619C175B0004B6F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36B5F519C175B0004B6F40 /* main.m */; };
 		FA36B5FA19C175B0004B6F40 /* _4__BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA36B5F919C175B0004B6F40 /* _4__BMITime.1 */; };
 		FA36B60219C17E36004B6F40 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36B60119C17E36004B6F40 /* Person.m */; };
+		FAD5B87C19C28390007B1156 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5B87B19C28390007B1156 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		FA36B5F919C175B0004B6F40 /* _4__BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _4__BMITime.1; sourceTree = "<group>"; };
 		FA36B60019C17E36004B6F40 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		FA36B60119C17E36004B6F40 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FAD5B87A19C2838F007B1156 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		FAD5B87B19C28390007B1156 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				FA36B5F519C175B0004B6F40 /* main.m */,
 				FA36B60019C17E36004B6F40 /* Person.h */,
 				FA36B60119C17E36004B6F40 /* Person.m */,
+				FAD5B87A19C2838F007B1156 /* Employee.h */,
+				FAD5B87B19C28390007B1156 /* Employee.m */,
 				FA36B5F919C175B0004B6F40 /* _4__BMITime.1 */,
 				FA36B5F719C175B0004B6F40 /* Supporting Files */,
 			);
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD5B87C19C28390007B1156 /* Employee.m in Sources */,
 				FA36B60219C17E36004B6F40 /* Person.m in Sources */,
 				FA36B5F619C175B0004B6F40 /* main.m in Sources */,
 			);
@@ -257,6 +263,7 @@
 				FA36B5FF19C175B0004B6F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

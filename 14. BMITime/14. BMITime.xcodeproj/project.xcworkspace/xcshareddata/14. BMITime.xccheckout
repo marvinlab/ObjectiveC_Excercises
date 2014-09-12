@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F76B0F94-C271-475A-AF92-7846E8923E02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>14. BMITime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCD76107-09DD-4303-82E8-8B7B8B6B5832</key>
+		<string>https://github.com/marvinlab/ObjectiveC_Excercises.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>14. BMITime/14. BMITime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCD76107-09DD-4303-82E8-8B7B8B6B5832</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marvinlab/ObjectiveC_Excercises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCD76107-09DD-4303-82E8-8B7B8B6B5832</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCD76107-09DD-4303-82E8-8B7B8B6B5832</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectiveC_Excercises</string>
+		</dict>
+	</array>
+</dict>
+</plist>
