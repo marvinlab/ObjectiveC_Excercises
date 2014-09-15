@@ -13,7 +13,10 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSMutableString *str = [[NSMutableString alloc] init];
+        
+        //WRITING FILE
+        
+        /*NSMutableString *str = [[NSMutableString alloc] init];
         for(int i=0; i<10; i++){
             [str appendString:@"Marvin is cool!\n"];
         }
@@ -29,7 +32,28 @@ int main(int argc, const char * argv[])
             NSLog(@"DONE WRITING /t,p/cool.txt");
         }else{
             NSLog(@"WRITING /t,p/cool.txt Failed : %@", [error localizedDescription]);
-        }
+        }*/
+        
+        
+        
+        
+        
+        
+        
+        //READING FILE
+        
+        
+         NSError *error = nil;
+         NSString *str = [[NSString alloc] initWithContentsOfFile:   @"/etc/resov.conf"
+                                          encoding:                 NSASCIIStringEncoding
+                                          error:                    &error];
+        
+        
+         if(!str){
+         NSLog(@"read failed: %@", [error localizedDescription]);
+         }else{
+         NSLog(@"resolv.conf looks like this: \n%@", str);
+         }
     }
     return 0;
 }
