@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0A909219C6787F00742154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0A909119C6787F00742154 /* Foundation.framework */; };
+		FA0A909519C6787F00742154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0A909419C6787F00742154 /* main.m */; };
+		FA0A909919C6787F00742154 /* _6__NSLocale.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0A909819C6787F00742154 /* _6__NSLocale.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0A908C19C6787F00742154 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FA0A909919C6787F00742154 /* _6__NSLocale.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0A908E19C6787F00742154 /* 16. NSLocale */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16. NSLocale"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A909119C6787F00742154 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA0A909419C6787F00742154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0A909719C6787F00742154 /* 16. NSLocale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16. NSLocale-Prefix.pch"; sourceTree = "<group>"; };
+		FA0A909819C6787F00742154 /* _6__NSLocale.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _6__NSLocale.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0A908B19C6787F00742154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A909219C6787F00742154 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0A908519C6787F00742154 = {
+			isa = PBXGroup;
+			children = (
+				FA0A909319C6787F00742154 /* 16. NSLocale */,
+				FA0A909019C6787F00742154 /* Frameworks */,
+				FA0A908F19C6787F00742154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0A908F19C6787F00742154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A908E19C6787F00742154 /* 16. NSLocale */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0A909019C6787F00742154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A909119C6787F00742154 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0A909319C6787F00742154 /* 16. NSLocale */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A909419C6787F00742154 /* main.m */,
+				FA0A909819C6787F00742154 /* _6__NSLocale.1 */,
+				FA0A909619C6787F00742154 /* Supporting Files */,
+			);
+			path = "16. NSLocale";
+			sourceTree = "<group>";
+		};
+		FA0A909619C6787F00742154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A909719C6787F00742154 /* 16. NSLocale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0A908D19C6787F00742154 /* 16. NSLocale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A909C19C6787F00742154 /* Build configuration list for PBXNativeTarget "16. NSLocale" */;
+			buildPhases = (
+				FA0A908A19C6787F00742154 /* Sources */,
+				FA0A908B19C6787F00742154 /* Frameworks */,
+				FA0A908C19C6787F00742154 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16. NSLocale";
+			productName = "16. NSLocale";
+			productReference = FA0A908E19C6787F00742154 /* 16. NSLocale */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0A908619C6787F00742154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Marvin Labrador";
+			};
+			buildConfigurationList = FA0A908919C6787F00742154 /* Build configuration list for PBXProject "16. NSLocale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA0A908519C6787F00742154;
+			productRefGroup = FA0A908F19C6787F00742154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0A908D19C6787F00742154 /* 16. NSLocale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0A908A19C6787F00742154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A909519C6787F00742154 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA0A909A19C6787F00742154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA0A909B19C6787F00742154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA0A909D19C6787F00742154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "16. NSLocale/16. NSLocale-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0A909E19C6787F00742154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "16. NSLocale/16. NSLocale-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0A908919C6787F00742154 /* Build configuration list for PBXProject "16. NSLocale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A909A19C6787F00742154 /* Debug */,
+				FA0A909B19C6787F00742154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A909C19C6787F00742154 /* Build configuration list for PBXNativeTarget "16. NSLocale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A909D19C6787F00742154 /* Debug */,
+				FA0A909E19C6787F00742154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0A908619C6787F00742154 /* Project object */;
+}
