@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>573D8A1A-D571-4A05-9D52-18C0CFEAF609</string>
+	<key>IDESourceControlProjectName</key>
+	<string>22. TahDoodle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8C2F3C7-83ED-42B8-BD2A-6E0EF3781A19</key>
+		<string>https://github.com/marvinlab/ObjectiveC_Excercises.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>22. TahDoodle/22. TahDoodle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8C2F3C7-83ED-42B8-BD2A-6E0EF3781A19</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marvinlab/ObjectiveC_Excercises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8C2F3C7-83ED-42B8-BD2A-6E0EF3781A19</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8C2F3C7-83ED-42B8-BD2A-6E0EF3781A19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectiveC_Excercises</string>
+		</dict>
+	</array>
+</dict>
+</plist>
